@@ -1,6 +1,6 @@
-read -p "dime usuario" usuario
+read -p "dime usuario: " usuario
 
-cd etc
+cd /etc
 maxl=`cat passwd | wc -l`
 n=1
 cont=0
