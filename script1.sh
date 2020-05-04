@@ -1,5 +1,5 @@
-read -p "dime el nombre" nombre
-read -p "dime valor PID" pid
+read -p "dime el nombre " nombre
+read -p "dime valor PID " pid
 
 n=1
 maxl=`cat procesos.txt | wc -l`
